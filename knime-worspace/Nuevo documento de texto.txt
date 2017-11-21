@@ -1,0 +1,19 @@
+Acc = TP+TN/TP+TN+FP+FN
+
+v TPR=TP/TP+FN = Sensibilidad   Recall
+
+v TNR= TN/TN+FP=Especifidad
+
+PPV = TP/TP+FP
+
+*	Clase	Predicha	Pp	Pn
+
+1	P	P		0.6	0.4
+
+2	N	N		0.3	0.7
+
+3	P	N		0.2	0.8
+
+4	P	N		0.2	0.8
+
+5	N	P		0.6	0.4

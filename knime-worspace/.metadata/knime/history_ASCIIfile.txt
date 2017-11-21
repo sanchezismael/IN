@@ -1,0 +1,8 @@
+C:\Users\Ismael\Desktop\P1-Sanchez-Garcia-Ismael_p\adult.csv
+file:/C:/Users/Ismael/Dropbox/asignaturas%20grado%20informatica/CUARTO/primer%20semestre%204º/IN/knime-worspace/Practica1_IN/adult.csv
+knime://knime.workflow/data.all
+file:/C:/Users/Ismael/Dropbox/asignaturas%20grado%20informatica/CUARTO/primer%20semestre%204º/IN/knime-worspace/IN_primer_proyecto/iris.data.txt
+file:/C:/Users/Ismael/Dropbox/asignaturas%20grado%20informatica/CUARTO/primer%20semestre%204º/IN/knime-worspace/trabajo%20casa%20semana%201/bank-additional/bank-additional-full.csv
+C:\Users\Ismael\Dropbox\asignaturas grado informatica\CUARTO\primer semestre 4º\IN\knime-worspace\Practica1_IN\adult.csv
+file:/C:/Users/Ismael/Dropbox/asignaturas%20grado%20informatica/CUARTO/primer%20semestre%204º/IN/practica1/adult.csv
+C:\Users\Ismael\Dropbox\asignaturas grado informatica\CUARTO\primer semestre 4º\IN\practica1\adult.csv

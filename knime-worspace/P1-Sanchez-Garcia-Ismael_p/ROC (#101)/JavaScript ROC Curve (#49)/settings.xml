@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="generateImage" type="xboolean" value="true"/>
+<entry key="showArea" type="xboolean" value="true"/>
+<entry key="showGrid" type="xboolean" value="true"/>
+<entry key="resizeToWindow" type="xboolean" value="true"/>
+<entry key="displayFullscreenButton" type="xboolean" value="true"/>
+<entry key="imageWidth" type="xint" value="800"/>
+<entry key="imageHeight" type="xint" value="600"/>
+<entry key="backgroundColor" type="xstring" value="rgba(255,255,255,1.0)"/>
+<entry key="dataAreaColor" type="xstring" value="rgba(230,230,230,1.0)"/>
+<entry key="gridColor" type="xstring" value="rgba(255,255,255,1.0)"/>
+<entry key="lineWidth" type="xint" value="2"/>
+<entry key="title" type="xstring" value="ROC Curve"/>
+<entry key="subtitle" type="xstring" value=""/>
+<entry key="yAxisTitle" type="xstring" value="True Positive Rate"/>
+<entry key="xAxisTitle" type="xstring" value="False Positive Rate"/>
+<entry key="showLegend" type="xboolean" value="true"/>
+<entry key="enableControls" type="xboolean" value="true"/>
+<entry key="enableEditTitle" type="xboolean" value="true"/>
+<entry key="enableEditSubtitle" type="xboolean" value="true"/>
+<entry key="enableEditXAxisLabel" type="xboolean" value="true"/>
+<entry key="enableEditYAxisLabel" type="xboolean" value="true"/>
+<entry key="showWarningInView" type="xboolean" value="true"/>
+<entry key="ignoreMissingValues" type="xboolean" value="false"/>
+<entry key="classColumn" type="xstring" value="class"/>
+<config key="positiveClass">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&gt;50K"/>
+</config>
+</config>
+<entry key="maxPoints" type="xint" value="2000"/>
+<config key="numColumns">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="KNN"/>
+<entry key="1" type="xstring" value="C4.5"/>
+<entry key="2" type="xstring" value="Logistic Regression"/>
+<entry key="3" type="xstring" value="Random Forest"/>
+<entry key="4" type="xstring" value="Gradient Boosted"/>
+<entry key="5" type="xstring" value="Neural Networks"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="601"/>
+<entry key="0" type="xstring" value="State-gov"/>
+<entry key="1" type="xstring" value="Self-emp-not-inc"/>
+<entry key="2" type="xstring" value="Private"/>
+<entry key="3" type="xstring" value="Federal-gov"/>
+<entry key="4" type="xstring" value="Local-gov"/>
+<entry key="5" type="xstring" value="Self-emp-inc"/>
+<entry key="6" type="xstring" value="Without-pay"/>
+<entry key="7" type="xstring" value="Never-worked"/>
+<entry key="8" type="xstring" value="Bachelors"/>
+<entry key="9" type="xstring" value="HS-grad"/>
+<entry key="10" type="xstring" value="11th"/>
+<entry key="11" type="xstring" value="Masters"/>
+<entry key="12" type="xstring" value="9th"/>
+<entry key="13" type="xstring" value="Some-college"/>
+<entry key="14" type="xstring" value="Assoc-acdm"/>
+<entry key="15" type="xstring" value="Assoc-voc"/>
+<entry key="16" type="xstring" value="7th-8th"/>
+<entry key="17" type="xstring" value="Doctorate"/>
+<entry key="18" type="xstring" value="Prof-school"/>
+<entry key="19" type="xstring" value="5th-6th"/>
+<entry key="20" type="xstring" value="10th"/>
+<entry key="21" type="xstring" value="1st-4th"/>
+<entry key="22" type="xstring" value="Preschool"/>
+<entry key="23" type="xstring" value="12th"/>
+<entry key="24" type="xstring" value="Never-married"/>
+<entry key="25" type="xstring" value="Married-civ-spouse"/>
+<entry key="26" type="xstring" value="Divorced"/>
+<entry key="27" type="xstring" value="Married-spouse-absent"/>
+<entry key="28" type="xstring" value="Separated"/>
+<entry key="29" type="xstring" value="Married-AF-spouse"/>
+<entry key="30" type="xstring" value="Widowed"/>
+<entry key="31" type="xstring" value="Adm-clerical"/>
+<entry key="32" type="xstring" value="Exec-managerial"/>
+<entry key="33" type="xstring" value="Handlers-cleaners"/>
+<entry key="34" type="xstring" value="Prof-specialty"/>
+<entry key="35" type="xstring" value="Other-service"/>
+<entry key="36" type="xstring" value="Sales"/>
+<entry key="37" type="xstring" value="Craft-repair"/>
+<entry key="38" type="xstring" value="Transport-moving"/>
+<entry key="39" type="xstring" value="Farming-fishing"/>
+<entry key="40" type="xstring" value="Machine-op-inspct"/>
+<entry key="41" type="xstring" value="Tech-support"/>
+<entry key="42" type="xstring" value="Protective-serv"/>
+<entry key="43" type="xstring" value="Armed-Forces"/>
+<entry key="44" type="xstring" value="Priv-house-serv"/>
+<entry key="45" type="xstring" value="Not-in-family"/>
+<entry key="46" type="xstring" value="Husband"/>
+<entry key="47" type="xstring" value="Wife"/>
+<entry key="48" type="xstring" value="Own-child"/>
+<entry key="49" type="xstring" value="Unmarried"/>
+<entry key="50" type="xstring" value="Other-relative"/>
+<entry key="51" type="xstring" value="White"/>
+<entry key="52" type="xstring" value="Black"/>
+<entry key="53" type="xstring" value="Asian-Pac-Islander"/>
+<entry key="54" type="xstring" value="Amer-Indian-Eskimo"/>
+<entry key="55" type="xstring" value="Other"/>
+<entry key="56" type="xstring" value="Male"/>
+<entry key="57" type="xstring" value="Female"/>
+<entry key="58" type="xstring" value="United-States"/>
+<entry key="59" type="xstring" value="Cuba"/>
+<entry key="60" type="xstring" value="Jamaica"/>
+<entry key="61" type="xstring" value="India"/>
+<entry key="62" type="xstring" value="Mexico"/>
+<entry key="63" type="xstring" value="South"/>
+<entry key="64" type="xstring" value="Puerto-Rico"/>
+<entry key="65" type="xstring" value="Honduras"/>
+<entry key="66" type="xstring" value="England"/>
+<entry key="67" type="xstring" value="Canada"/>
+<entry key="68" type="xstring" value="Germany"/>
+<entry key="69" type="xstring" value="Iran"/>
+<entry key="70" type="xstring" value="Philippines"/>
+<entry key="71" type="xstring" value="Italy"/>
+<entry key="72" type="xstring" value="Poland"/>
+<entry key="73" type="xstring" value="Columbia"/>
+<entry key="74" type="xstring" value="Cambodia"/>
+<entry key="75" type="xstring" value="Thailand"/>
+<entry key="76" type="xstring" value="Ecuador"/>
+<entry key="77" type="xstring" value="Laos"/>
+<entry key="78" type="xstring" value="Taiwan"/>
+<entry key="79" type="xstring" value="Haiti"/>
+<entry key="80" type="xstring" value="Portugal"/>
+<entry key="81" type="xstring" value="Dominican-Republic"/>
+<entry key="82" type="xstring" value="El-Salvador"/>
+<entry key="83" type="xstring" value="France"/>
+<entry key="84" type="xstring" value="Guatemala"/>
+<entry key="85" type="xstring" value="China"/>
+<entry key="86" type="xstring" value="Japan"/>
+<entry key="87" type="xstring" value="Yugoslavia"/>
+<entry key="88" type="xstring" value="Peru"/>
+<entry key="89" type="xstring" value="Outlying-US(Guam-USVI-etc)"/>
+<entry key="90" type="xstring" value="Scotland"/>
+<entry key="91" type="xstring" value="Trinadad&amp;Tobago"/>
+<entry key="92" type="xstring" value="Greece"/>
+<entry key="93" type="xstring" value="Nicaragua"/>
+<entry key="94" type="xstring" value="Vietnam"/>
+<entry key="95" type="xstring" value="Hong"/>
+<entry key="96" type="xstring" value="Ireland"/>
+<entry key="97" type="xstring" value="Hungary"/>
+<entry key="98" type="xstring" value="Holand-Netherlands"/>
+<entry key="99" type="xstring" value="State-gov (#1)"/>
+<entry key="100" type="xstring" value="Self-emp-not-inc (#1)"/>
+<entry key="101" type="xstring" value="Private (#1)"/>
+<entry key="102" type="xstring" value="Federal-gov (#1)"/>
+<entry key="103" type="xstring" value="Local-gov (#1)"/>
+<entry key="104" type="xstring" value="Self-emp-inc (#1)"/>
+<entry key="105" type="xstring" value="Without-pay (#1)"/>
+<entry key="106" type="xstring" value="Never-worked (#1)"/>
+<entry key="107" type="xstring" value="Bachelors (#1)"/>
+<entry key="108" type="xstring" value="HS-grad (#1)"/>
+<entry key="109" type="xstring" value="11th (#1)"/>
+<entry key="110" type="xstring" value="Masters (#1)"/>
+<entry key="111" type="xstring" value="9th (#1)"/>
+<entry key="112" type="xstring" value="Some-college (#1)"/>
+<entry key="113" type="xstring" value="Assoc-acdm (#1)"/>
+<entry key="114" type="xstring" value="Assoc-voc (#1)"/>
+<entry key="115" type="xstring" value="7th-8th (#1)"/>
+<entry key="116" type="xstring" value="Doctorate (#1)"/>
+<entry key="117" type="xstring" value="Prof-school (#1)"/>
+<entry key="118" type="xstring" value="5th-6th (#1)"/>
+<entry key="119" type="xstring" value="10th (#1)"/>
+<entry key="120" type="xstring" value="1st-4th (#1)"/>
+<entry key="121" type="xstring" value="Preschool (#1)"/>
+<entry key="122" type="xstring" value="12th (#1)"/>
+<entry key="123" type="xstring" value="Never-married (#1)"/>
+<entry key="124" type="xstring" value="Married-civ-spouse (#1)"/>
+<entry key="125" type="xstring" value="Divorced (#1)"/>
+<entry key="126" type="xstring" value="Married-spouse-absent (#1)"/>
+<entry key="127" type="xstring" value="Separated (#1)"/>
+<entry key="128" type="xstring" value="Married-AF-spouse (#1)"/>
+<entry key="129" type="xstring" value="Widowed (#1)"/>
+<entry key="130" type="xstring" value="Adm-clerical (#1)"/>
+<entry key="131" type="xstring" value="Exec-managerial (#1)"/>
+<entry key="132" type="xstring" value="Handlers-cleaners (#1)"/>
+<entry key="133" type="xstring" value="Prof-specialty (#1)"/>
+<entry key="134" type="xstring" value="Other-service (#1)"/>
+<entry key="135" type="xstring" value="Sales (#1)"/>
+<entry key="136" type="xstring" value="Craft-repair (#1)"/>
+<entry key="137" type="xstring" value="Transport-moving (#1)"/>
+<entry key="138" type="xstring" value="Farming-fishing (#1)"/>
+<entry key="139" type="xstring" value="Machine-op-inspct (#1)"/>
+<entry key="140" type="xstring" value="Tech-support (#1)"/>
+<entry key="141" type="xstring" value="Protective-serv (#1)"/>
+<entry key="142" type="xstring" value="Armed-Forces (#1)"/>
+<entry key="143" type="xstring" value="Priv-house-serv (#1)"/>
+<entry key="144" type="xstring" value="Not-in-family (#1)"/>
+<entry key="145" type="xstring" value="Husband (#1)"/>
+<entry key="146" type="xstring" value="Wife (#1)"/>
+<entry key="147" type="xstring" value="Own-child (#1)"/>
+<entry key="148" type="xstring" value="Unmarried (#1)"/>
+<entry key="149" type="xstring" value="Other-relative (#1)"/>
+<entry key="150" type="xstring" value="White (#1)"/>
+<entry key="151" type="xstring" value="Black (#1)"/>
+<entry key="152" type="xstring" value="Asian-Pac-Islander (#1)"/>
+<entry key="153" type="xstring" value="Amer-Indian-Eskimo (#1)"/>
+<entry key="154" type="xstring" value="Other (#1)"/>
+<entry key="155" type="xstring" value="Male (#1)"/>
+<entry key="156" type="xstring" value="Female (#1)"/>
+<entry key="157" type="xstring" value="United-States (#1)"/>
+<entry key="158" type="xstring" value="Cuba (#1)"/>
+<entry key="159" type="xstring" value="Jamaica (#1)"/>
+<entry key="160" type="xstring" value="India (#1)"/>
+<entry key="161" type="xstring" value="Mexico (#1)"/>
+<entry key="162" type="xstring" value="South (#1)"/>
+<entry key="163" type="xstring" value="Puerto-Rico (#1)"/>
+<entry key="164" type="xstring" value="Honduras (#1)"/>
+<entry key="165" type="xstring" value="England (#1)"/>
+<entry key="166" type="xstring" value="Canada (#1)"/>
+<entry key="167" type="xstring" value="Germany (#1)"/>
+<entry key="168" type="xstring" value="Iran (#1)"/>
+<entry key="169" type="xstring" value="Philippines (#1)"/>
+<entry key="170" type="xstring" value="Italy (#1)"/>
+<entry key="171" type="xstring" value="Poland (#1)"/>
+<entry key="172" type="xstring" value="Columbia (#1)"/>
+<entry key="173" type="xstring" value="Cambodia (#1)"/>
+<entry key="174" type="xstring" value="Thailand (#1)"/>
+<entry key="175" type="xstring" value="Ecuador (#1)"/>
+<entry key="176" type="xstring" value="Laos (#1)"/>
+<entry key="177" type="xstring" value="Taiwan (#1)"/>
+<entry key="178" type="xstring" value="Haiti (#1)"/>
+<entry key="179" type="xstring" value="Portugal (#1)"/>
+<entry key="180" type="xstring" value="Dominican-Republic (#1)"/>
+<entry key="181" type="xstring" value="El-Salvador (#1)"/>
+<entry key="182" type="xstring" value="France (#1)"/>
+<entry key="183" type="xstring" value="Guatemala (#1)"/>
+<entry key="184" type="xstring" value="China (#1)"/>
+<entry key="185" type="xstring" value="Japan (#1)"/>
+<entry key="186" type="xstring" value="Yugoslavia (#1)"/>
+<entry key="187" type="xstring" value="Peru (#1)"/>
+<entry key="188" type="xstring" value="Outlying-US(Guam-USVI-etc) (#1)"/>
+<entry key="189" type="xstring" value="Scotland (#1)"/>
+<entry key="190" type="xstring" value="Trinadad&amp;Tobago (#1)"/>
+<entry key="191" type="xstring" value="Greece (#1)"/>
+<entry key="192" type="xstring" value="Nicaragua (#1)"/>
+<entry key="193" type="xstring" value="Vietnam (#1)"/>
+<entry key="194" type="xstring" value="Hong (#1)"/>
+<entry key="195" type="xstring" value="Ireland (#1)"/>
+<entry key="196" type="xstring" value="Hungary (#1)"/>
+<entry key="197" type="xstring" value="Holand-Netherlands (#1)"/>
+<entry key="198" type="xstring" value="State-gov (#2)"/>
+<entry key="199" type="xstring" value="Self-emp-not-inc (#2)"/>
+<entry key="200" type="xstring" value="Private (#2)"/>
+<entry key="201" type="xstring" value="Federal-gov (#2)"/>
+<entry key="202" type="xstring" value="Local-gov (#2)"/>
+<entry key="203" type="xstring" value="Self-emp-inc (#2)"/>
+<entry key="204" type="xstring" value="Without-pay (#2)"/>
+<entry key="205" type="xstring" value="Never-worked (#2)"/>
+<entry key="206" type="xstring" value="Bachelors (#2)"/>
+<entry key="207" type="xstring" value="HS-grad (#2)"/>
+<entry key="208" type="xstring" value="11th (#2)"/>
+<entry key="209" type="xstring" value="Masters (#2)"/>
+<entry key="210" type="xstring" value="9th (#2)"/>
+<entry key="211" type="xstring" value="Some-college (#2)"/>
+<entry key="212" type="xstring" value="Assoc-acdm (#2)"/>
+<entry key="213" type="xstring" value="Assoc-voc (#2)"/>
+<entry key="214" type="xstring" value="7th-8th (#2)"/>
+<entry key="215" type="xstring" value="Doctorate (#2)"/>
+<entry key="216" type="xstring" value="Prof-school (#2)"/>
+<entry key="217" type="xstring" value="5th-6th (#2)"/>
+<entry key="218" type="xstring" value="10th (#2)"/>
+<entry key="219" type="xstring" value="1st-4th (#2)"/>
+<entry key="220" type="xstring" value="Preschool (#2)"/>
+<entry key="221" type="xstring" value="12th (#2)"/>
+<entry key="222" type="xstring" value="Never-married (#2)"/>
+<entry key="223" type="xstring" value="Married-civ-spouse (#2)"/>
+<entry key="224" type="xstring" value="Divorced (#2)"/>
+<entry key="225" type="xstring" value="Married-spouse-absent (#2)"/>
+<entry key="226" type="xstring" value="Separated (#2)"/>
+<entry key="227" type="xstring" value="Married-AF-spouse (#2)"/>
+<entry key="228" type="xstring" value="Widowed (#2)"/>
+<entry key="229" type="xstring" value="Adm-clerical (#2)"/>
+<entry key="230" type="xstring" value="Exec-managerial (#2)"/>
+<entry key="231" type="xstring" value="Handlers-cleaners (#2)"/>
+<entry key="232" type="xstring" value="Prof-specialty (#2)"/>
+<entry key="233" type="xstring" value="Other-service (#2)"/>
+<entry key="234" type="xstring" value="Sales (#2)"/>
+<entry key="235" type="xstring" value="Craft-repair (#2)"/>
+<entry key="236" type="xstring" value="Transport-moving (#2)"/>
+<entry key="237" type="xstring" value="Farming-fishing (#2)"/>
+<entry key="238" type="xstring" value="Machine-op-inspct (#2)"/>
+<entry key="239" type="xstring" value="Tech-support (#2)"/>
+<entry key="240" type="xstring" value="Protective-serv (#2)"/>
+<entry key="241" type="xstring" value="Armed-Forces (#2)"/>
+<entry key="242" type="xstring" value="Priv-house-serv (#2)"/>
+<entry key="243" type="xstring" value="Not-in-family (#2)"/>
+<entry key="244" type="xstring" value="Husband (#2)"/>
+<entry key="245" type="xstring" value="Wife (#2)"/>
+<entry key="246" type="xstring" value="Own-child (#2)"/>
+<entry key="247" type="xstring" value="Unmarried (#2)"/>
+<entry key="248" type="xstring" value="Other-relative (#2)"/>
+<entry key="249" type="xstring" value="White (#2)"/>
+<entry key="250" type="xstring" value="Black (#2)"/>
+<entry key="251" type="xstring" value="Asian-Pac-Islander (#2)"/>
+<entry key="252" type="xstring" value="Amer-Indian-Eskimo (#2)"/>
+<entry key="253" type="xstring" value="Other (#2)"/>
+<entry key="254" type="xstring" value="Male (#2)"/>
+<entry key="255" type="xstring" value="Female (#2)"/>
+<entry key="256" type="xstring" value="United-States (#2)"/>
+<entry key="257" type="xstring" value="Cuba (#2)"/>
+<entry key="258" type="xstring" value="Jamaica (#2)"/>
+<entry key="259" type="xstring" value="India (#2)"/>
+<entry key="260" type="xstring" value="Mexico (#2)"/>
+<entry key="261" type="xstring" value="South (#2)"/>
+<entry key="262" type="xstring" value="Puerto-Rico (#2)"/>
+<entry key="263" type="xstring" value="Honduras (#2)"/>
+<entry key="264" type="xstring" value="England (#2)"/>
+<entry key="265" type="xstring" value="Canada (#2)"/>
+<entry key="266" type="xstring" value="Germany (#2)"/>
+<entry key="267" type="xstring" value="Iran (#2)"/>
+<entry key="268" type="xstring" value="Philippines (#2)"/>
+<entry key="269" type="xstring" value="Italy (#2)"/>
+<entry key="270" type="xstring" value="Poland (#2)"/>
+<entry key="271" type="xstring" value="Columbia (#2)"/>
+<entry key="272" type="xstring" value="Cambodia (#2)"/>
+<entry key="273" type="xstring" value="Thailand (#2)"/>
+<entry key="274" type="xstring" value="Ecuador (#2)"/>
+<entry key="275" type="xstring" value="Laos (#2)"/>
+<entry key="276" type="xstring" value="Taiwan (#2)"/>
+<entry key="277" type="xstring" value="Haiti (#2)"/>
+<entry key="278" type="xstring" value="Portugal (#2)"/>
+<entry key="279" type="xstring" value="Dominican-Republic (#2)"/>
+<entry key="280" type="xstring" value="El-Salvador (#2)"/>
+<entry key="281" type="xstring" value="France (#2)"/>
+<entry key="282" type="xstring" value="Guatemala (#2)"/>
+<entry key="283" type="xstring" value="China (#2)"/>
+<entry key="284" type="xstring" value="Japan (#2)"/>
+<entry key="285" type="xstring" value="Yugoslavia (#2)"/>
+<entry key="286" type="xstring" value="Peru (#2)"/>
+<entry key="287" type="xstring" value="Outlying-US(Guam-USVI-etc) (#2)"/>
+<entry key="288" type="xstring" value="Scotland (#2)"/>
+<entry key="289" type="xstring" value="Trinadad&amp;Tobago (#2)"/>
+<entry key="290" type="xstring" value="Greece (#2)"/>
+<entry key="291" type="xstring" value="Nicaragua (#2)"/>
+<entry key="292" type="xstring" value="Vietnam (#2)"/>
+<entry key="293" type="xstring" value="Hong (#2)"/>
+<entry key="294" type="xstring" value="Ireland (#2)"/>
+<entry key="295" type="xstring" value="Hungary (#2)"/>
+<entry key="296" type="xstring" value="Holand-Netherlands (#2)"/>
+<entry key="297" type="xstring" value="State-gov (#3)"/>
+<entry key="298" type="xstring" value="Self-emp-not-inc (#3)"/>
+<entry key="299" type="xstring" value="Private (#3)"/>
+<entry key="300" type="xstring" value="Federal-gov (#3)"/>
+<entry key="301" type="xstring" value="Local-gov (#3)"/>
+<entry key="302" type="xstring" value="Self-emp-inc (#3)"/>
+<entry key="303" type="xstring" value="Without-pay (#3)"/>
+<entry key="304" type="xstring" value="Never-worked (#3)"/>
+<entry key="305" type="xstring" value="Bachelors (#3)"/>
+<entry key="306" type="xstring" value="HS-grad (#3)"/>
+<entry key="307" type="xstring" value="11th (#3)"/>
+<entry key="308" type="xstring" value="Masters (#3)"/>
+<entry key="309" type="xstring" value="9th (#3)"/>
+<entry key="310" type="xstring" value="Some-college (#3)"/>
+<entry key="311" type="xstring" value="Assoc-acdm (#3)"/>
+<entry key="312" type="xstring" value="Assoc-voc (#3)"/>
+<entry key="313" type="xstring" value="7th-8th (#3)"/>
+<entry key="314" type="xstring" value="Doctorate (#3)"/>
+<entry key="315" type="xstring" value="Prof-school (#3)"/>
+<entry key="316" type="xstring" value="5th-6th (#3)"/>
+<entry key="317" type="xstring" value="10th (#3)"/>
+<entry key="318" type="xstring" value="1st-4th (#3)"/>
+<entry key="319" type="xstring" value="Preschool (#3)"/>
+<entry key="320" type="xstring" value="12th (#3)"/>
+<entry key="321" type="xstring" value="Never-married (#3)"/>
+<entry key="322" type="xstring" value="Married-civ-spouse (#3)"/>
+<entry key="323" type="xstring" value="Divorced (#3)"/>
+<entry key="324" type="xstring" value="Married-spouse-absent (#3)"/>
+<entry key="325" type="xstring" value="Separated (#3)"/>
+<entry key="326" type="xstring" value="Married-AF-spouse (#3)"/>
+<entry key="327" type="xstring" value="Widowed (#3)"/>
+<entry key="328" type="xstring" value="Adm-clerical (#3)"/>
+<entry key="329" type="xstring" value="Exec-managerial (#3)"/>
+<entry key="330" type="xstring" value="Handlers-cleaners (#3)"/>
+<entry key="331" type="xstring" value="Prof-specialty (#3)"/>
+<entry key="332" type="xstring" value="Other-service (#3)"/>
+<entry key="333" type="xstring" value="Sales (#3)"/>
+<entry key="334" type="xstring" value="Craft-repair (#3)"/>
+<entry key="335" type="xstring" value="Transport-moving (#3)"/>
+<entry key="336" type="xstring" value="Farming-fishing (#3)"/>
+<entry key="337" type="xstring" value="Machine-op-inspct (#3)"/>
+<entry key="338" type="xstring" value="Tech-support (#3)"/>
+<entry key="339" type="xstring" value="Protective-serv (#3)"/>
+<entry key="340" type="xstring" value="Armed-Forces (#3)"/>
+<entry key="341" type="xstring" value="Priv-house-serv (#3)"/>
+<entry key="342" type="xstring" value="Not-in-family (#3)"/>
+<entry key="343" type="xstring" value="Husband (#3)"/>
+<entry key="344" type="xstring" value="Wife (#3)"/>
+<entry key="345" type="xstring" value="Own-child (#3)"/>
+<entry key="346" type="xstring" value="Unmarried (#3)"/>
+<entry key="347" type="xstring" value="Other-relative (#3)"/>
+<entry key="348" type="xstring" value="White (#3)"/>
+<entry key="349" type="xstring" value="Black (#3)"/>
+<entry key="350" type="xstring" value="Asian-Pac-Islander (#3)"/>
+<entry key="351" type="xstring" value="Amer-Indian-Eskimo (#3)"/>
+<entry key="352" type="xstring" value="Other (#3)"/>
+<entry key="353" type="xstring" value="Male (#3)"/>
+<entry key="354" type="xstring" value="Female (#3)"/>
+<entry key="355" type="xstring" value="United-States (#3)"/>
+<entry key="356" type="xstring" value="Cuba (#3)"/>
+<entry key="357" type="xstring" value="Jamaica (#3)"/>
+<entry key="358" type="xstring" value="India (#3)"/>
+<entry key="359" type="xstring" value="Mexico (#3)"/>
+<entry key="360" type="xstring" value="South (#3)"/>
+<entry key="361" type="xstring" value="Puerto-Rico (#3)"/>
+<entry key="362" type="xstring" value="Honduras (#3)"/>
+<entry key="363" type="xstring" value="England (#3)"/>
+<entry key="364" type="xstring" value="Canada (#3)"/>
+<entry key="365" type="xstring" value="Germany (#3)"/>
+<entry key="366" type="xstring" value="Iran (#3)"/>
+<entry key="367" type="xstring" value="Philippines (#3)"/>
+<entry key="368" type="xstring" value="Italy (#3)"/>
+<entry key="369" type="xstring" value="Poland (#3)"/>
+<entry key="370" type="xstring" value="Columbia (#3)"/>
+<entry key="371" type="xstring" value="Cambodia (#3)"/>
+<entry key="372" type="xstring" value="Thailand (#3)"/>
+<entry key="373" type="xstring" value="Ecuador (#3)"/>
+<entry key="374" type="xstring" value="Laos (#3)"/>
+<entry key="375" type="xstring" value="Taiwan (#3)"/>
+<entry key="376" type="xstring" value="Haiti (#3)"/>
+<entry key="377" type="xstring" value="Portugal (#3)"/>
+<entry key="378" type="xstring" value="Dominican-Republic (#3)"/>
+<entry key="379" type="xstring" value="El-Salvador (#3)"/>
+<entry key="380" type="xstring" value="France (#3)"/>
+<entry key="381" type="xstring" value="Guatemala (#3)"/>
+<entry key="382" type="xstring" value="China (#3)"/>
+<entry key="383" type="xstring" value="Japan (#3)"/>
+<entry key="384" type="xstring" value="Yugoslavia (#3)"/>
+<entry key="385" type="xstring" value="Peru (#3)"/>
+<entry key="386" type="xstring" value="Outlying-US(Guam-USVI-etc) (#3)"/>
+<entry key="387" type="xstring" value="Scotland (#3)"/>
+<entry key="388" type="xstring" value="Trinadad&amp;Tobago (#3)"/>
+<entry key="389" type="xstring" value="Greece (#3)"/>
+<entry key="390" type="xstring" value="Nicaragua (#3)"/>
+<entry key="391" type="xstring" value="Vietnam (#3)"/>
+<entry key="392" type="xstring" value="Hong (#3)"/>
+<entry key="393" type="xstring" value="Ireland (#3)"/>
+<entry key="394" type="xstring" value="Hungary (#3)"/>
+<entry key="395" type="xstring" value="Holand-Netherlands (#3)"/>
+<entry key="396" type="xstring" value="State-gov (#4)"/>
+<entry key="397" type="xstring" value="Self-emp-not-inc (#4)"/>
+<entry key="398" type="xstring" value="Private (#4)"/>
+<entry key="399" type="xstring" value="Federal-gov (#4)"/>
+<entry key="400" type="xstring" value="Local-gov (#4)"/>
+<entry key="401" type="xstring" value="Self-emp-inc (#4)"/>
+<entry key="402" type="xstring" value="Without-pay (#4)"/>
+<entry key="403" type="xstring" value="Never-worked (#4)"/>
+<entry key="404" type="xstring" value="Bachelors (#4)"/>
+<entry key="405" type="xstring" value="HS-grad (#4)"/>
+<entry key="406" type="xstring" value="11th (#4)"/>
+<entry key="407" type="xstring" value="Masters (#4)"/>
+<entry key="408" type="xstring" value="9th (#4)"/>
+<entry key="409" type="xstring" value="Some-college (#4)"/>
+<entry key="410" type="xstring" value="Assoc-acdm (#4)"/>
+<entry key="411" type="xstring" value="Assoc-voc (#4)"/>
+<entry key="412" type="xstring" value="7th-8th (#4)"/>
+<entry key="413" type="xstring" value="Doctorate (#4)"/>
+<entry key="414" type="xstring" value="Prof-school (#4)"/>
+<entry key="415" type="xstring" value="5th-6th (#4)"/>
+<entry key="416" type="xstring" value="10th (#4)"/>
+<entry key="417" type="xstring" value="1st-4th (#4)"/>
+<entry key="418" type="xstring" value="Preschool (#4)"/>
+<entry key="419" type="xstring" value="12th (#4)"/>
+<entry key="420" type="xstring" value="Never-married (#4)"/>
+<entry key="421" type="xstring" value="Married-civ-spouse (#4)"/>
+<entry key="422" type="xstring" value="Divorced (#4)"/>
+<entry key="423" type="xstring" value="Married-spouse-absent (#4)"/>
+<entry key="424" type="xstring" value="Separated (#4)"/>
+<entry key="425" type="xstring" value="Married-AF-spouse (#4)"/>
+<entry key="426" type="xstring" value="Widowed (#4)"/>
+<entry key="427" type="xstring" value="Adm-clerical (#4)"/>
+<entry key="428" type="xstring" value="Exec-managerial (#4)"/>
+<entry key="429" type="xstring" value="Handlers-cleaners (#4)"/>
+<entry key="430" type="xstring" value="Prof-specialty (#4)"/>
+<entry key="431" type="xstring" value="Other-service (#4)"/>
+<entry key="432" type="xstring" value="Sales (#4)"/>
+<entry key="433" type="xstring" value="Craft-repair (#4)"/>
+<entry key="434" type="xstring" value="Transport-moving (#4)"/>
+<entry key="435" type="xstring" value="Farming-fishing (#4)"/>
+<entry key="436" type="xstring" value="Machine-op-inspct (#4)"/>
+<entry key="437" type="xstring" value="Tech-support (#4)"/>
+<entry key="438" type="xstring" value="Protective-serv (#4)"/>
+<entry key="439" type="xstring" value="Armed-Forces (#4)"/>
+<entry key="440" type="xstring" value="Priv-house-serv (#4)"/>
+<entry key="441" type="xstring" value="Not-in-family (#4)"/>
+<entry key="442" type="xstring" value="Husband (#4)"/>
+<entry key="443" type="xstring" value="Wife (#4)"/>
+<entry key="444" type="xstring" value="Own-child (#4)"/>
+<entry key="445" type="xstring" value="Unmarried (#4)"/>
+<entry key="446" type="xstring" value="Other-relative (#4)"/>
+<entry key="447" type="xstring" value="White (#4)"/>
+<entry key="448" type="xstring" value="Black (#4)"/>
+<entry key="449" type="xstring" value="Asian-Pac-Islander (#4)"/>
+<entry key="450" type="xstring" value="Amer-Indian-Eskimo (#4)"/>
+<entry key="451" type="xstring" value="Other (#4)"/>
+<entry key="452" type="xstring" value="Male (#4)"/>
+<entry key="453" type="xstring" value="Female (#4)"/>
+<entry key="454" type="xstring" value="United-States (#4)"/>
+<entry key="455" type="xstring" value="Cuba (#4)"/>
+<entry key="456" type="xstring" value="Jamaica (#4)"/>
+<entry key="457" type="xstring" value="India (#4)"/>
+<entry key="458" type="xstring" value="Mexico (#4)"/>
+<entry key="459" type="xstring" value="South (#4)"/>
+<entry key="460" type="xstring" value="Puerto-Rico (#4)"/>
+<entry key="461" type="xstring" value="Honduras (#4)"/>
+<entry key="462" type="xstring" value="England (#4)"/>
+<entry key="463" type="xstring" value="Canada (#4)"/>
+<entry key="464" type="xstring" value="Germany (#4)"/>
+<entry key="465" type="xstring" value="Iran (#4)"/>
+<entry key="466" type="xstring" value="Philippines (#4)"/>
+<entry key="467" type="xstring" value="Italy (#4)"/>
+<entry key="468" type="xstring" value="Poland (#4)"/>
+<entry key="469" type="xstring" value="Columbia (#4)"/>
+<entry key="470" type="xstring" value="Cambodia (#4)"/>
+<entry key="471" type="xstring" value="Thailand (#4)"/>
+<entry key="472" type="xstring" value="Ecuador (#4)"/>
+<entry key="473" type="xstring" value="Laos (#4)"/>
+<entry key="474" type="xstring" value="Taiwan (#4)"/>
+<entry key="475" type="xstring" value="Haiti (#4)"/>
+<entry key="476" type="xstring" value="Portugal (#4)"/>
+<entry key="477" type="xstring" value="Dominican-Republic (#4)"/>
+<entry key="478" type="xstring" value="El-Salvador (#4)"/>
+<entry key="479" type="xstring" value="France (#4)"/>
+<entry key="480" type="xstring" value="Guatemala (#4)"/>
+<entry key="481" type="xstring" value="China (#4)"/>
+<entry key="482" type="xstring" value="Japan (#4)"/>
+<entry key="483" type="xstring" value="Yugoslavia (#4)"/>
+<entry key="484" type="xstring" value="Peru (#4)"/>
+<entry key="485" type="xstring" value="Outlying-US(Guam-USVI-etc) (#4)"/>
+<entry key="486" type="xstring" value="Scotland (#4)"/>
+<entry key="487" type="xstring" value="Trinadad&amp;Tobago (#4)"/>
+<entry key="488" type="xstring" value="Greece (#4)"/>
+<entry key="489" type="xstring" value="Nicaragua (#4)"/>
+<entry key="490" type="xstring" value="Vietnam (#4)"/>
+<entry key="491" type="xstring" value="Hong (#4)"/>
+<entry key="492" type="xstring" value="Ireland (#4)"/>
+<entry key="493" type="xstring" value="Hungary (#4)"/>
+<entry key="494" type="xstring" value="Holand-Netherlands (#4)"/>
+<entry key="495" type="xstring" value="State-gov (#5)"/>
+<entry key="496" type="xstring" value="Self-emp-not-inc (#5)"/>
+<entry key="497" type="xstring" value="Private (#5)"/>
+<entry key="498" type="xstring" value="Federal-gov (#5)"/>
+<entry key="499" type="xstring" value="Local-gov (#5)"/>
+<entry key="500" type="xstring" value="Self-emp-inc (#5)"/>
+<entry key="501" type="xstring" value="Without-pay (#5)"/>
+<entry key="502" type="xstring" value="Never-worked (#5)"/>
+<entry key="503" type="xstring" value="Bachelors (#5)"/>
+<entry key="504" type="xstring" value="HS-grad (#5)"/>
+<entry key="505" type="xstring" value="11th (#5)"/>
+<entry key="506" type="xstring" value="Masters (#5)"/>
+<entry key="507" type="xstring" value="9th (#5)"/>
+<entry key="508" type="xstring" value="Some-college (#5)"/>
+<entry key="509" type="xstring" value="Assoc-acdm (#5)"/>
+<entry key="510" type="xstring" value="Assoc-voc (#5)"/>
+<entry key="511" type="xstring" value="7th-8th (#5)"/>
+<entry key="512" type="xstring" value="Doctorate (#5)"/>
+<entry key="513" type="xstring" value="Prof-school (#5)"/>
+<entry key="514" type="xstring" value="5th-6th (#5)"/>
+<entry key="515" type="xstring" value="10th (#5)"/>
+<entry key="516" type="xstring" value="1st-4th (#5)"/>
+<entry key="517" type="xstring" value="Preschool (#5)"/>
+<entry key="518" type="xstring" value="12th (#5)"/>
+<entry key="519" type="xstring" value="Never-married (#5)"/>
+<entry key="520" type="xstring" value="Married-civ-spouse (#5)"/>
+<entry key="521" type="xstring" value="Divorced (#5)"/>
+<entry key="522" type="xstring" value="Married-spouse-absent (#5)"/>
+<entry key="523" type="xstring" value="Separated (#5)"/>
+<entry key="524" type="xstring" value="Married-AF-spouse (#5)"/>
+<entry key="525" type="xstring" value="Widowed (#5)"/>
+<entry key="526" type="xstring" value="Adm-clerical (#5)"/>
+<entry key="527" type="xstring" value="Exec-managerial (#5)"/>
+<entry key="528" type="xstring" value="Handlers-cleaners (#5)"/>
+<entry key="529" type="xstring" value="Prof-specialty (#5)"/>
+<entry key="530" type="xstring" value="Other-service (#5)"/>
+<entry key="531" type="xstring" value="Sales (#5)"/>
+<entry key="532" type="xstring" value="Craft-repair (#5)"/>
+<entry key="533" type="xstring" value="Transport-moving (#5)"/>
+<entry key="534" type="xstring" value="Farming-fishing (#5)"/>
+<entry key="535" type="xstring" value="Machine-op-inspct (#5)"/>
+<entry key="536" type="xstring" value="Tech-support (#5)"/>
+<entry key="537" type="xstring" value="Protective-serv (#5)"/>
+<entry key="538" type="xstring" value="Armed-Forces (#5)"/>
+<entry key="539" type="xstring" value="Priv-house-serv (#5)"/>
+<entry key="540" type="xstring" value="Not-in-family (#5)"/>
+<entry key="541" type="xstring" value="Husband (#5)"/>
+<entry key="542" type="xstring" value="Wife (#5)"/>
+<entry key="543" type="xstring" value="Own-child (#5)"/>
+<entry key="544" type="xstring" value="Unmarried (#5)"/>
+<entry key="545" type="xstring" value="Other-relative (#5)"/>
+<entry key="546" type="xstring" value="White (#5)"/>
+<entry key="547" type="xstring" value="Black (#5)"/>
+<entry key="548" type="xstring" value="Asian-Pac-Islander (#5)"/>
+<entry key="549" type="xstring" value="Amer-Indian-Eskimo (#5)"/>
+<entry key="550" type="xstring" value="Other (#5)"/>
+<entry key="551" type="xstring" value="Male (#5)"/>
+<entry key="552" type="xstring" value="Female (#5)"/>
+<entry key="553" type="xstring" value="United-States (#5)"/>
+<entry key="554" type="xstring" value="Cuba (#5)"/>
+<entry key="555" type="xstring" value="Jamaica (#5)"/>
+<entry key="556" type="xstring" value="India (#5)"/>
+<entry key="557" type="xstring" value="Mexico (#5)"/>
+<entry key="558" type="xstring" value="South (#5)"/>
+<entry key="559" type="xstring" value="Puerto-Rico (#5)"/>
+<entry key="560" type="xstring" value="Honduras (#5)"/>
+<entry key="561" type="xstring" value="England (#5)"/>
+<entry key="562" type="xstring" value="Canada (#5)"/>
+<entry key="563" type="xstring" value="Germany (#5)"/>
+<entry key="564" type="xstring" value="Iran (#5)"/>
+<entry key="565" type="xstring" value="Philippines (#5)"/>
+<entry key="566" type="xstring" value="Italy (#5)"/>
+<entry key="567" type="xstring" value="Poland (#5)"/>
+<entry key="568" type="xstring" value="Columbia (#5)"/>
+<entry key="569" type="xstring" value="Cambodia (#5)"/>
+<entry key="570" type="xstring" value="Thailand (#5)"/>
+<entry key="571" type="xstring" value="Ecuador (#5)"/>
+<entry key="572" type="xstring" value="Laos (#5)"/>
+<entry key="573" type="xstring" value="Taiwan (#5)"/>
+<entry key="574" type="xstring" value="Haiti (#5)"/>
+<entry key="575" type="xstring" value="Portugal (#5)"/>
+<entry key="576" type="xstring" value="Dominican-Republic (#5)"/>
+<entry key="577" type="xstring" value="El-Salvador (#5)"/>
+<entry key="578" type="xstring" value="France (#5)"/>
+<entry key="579" type="xstring" value="Guatemala (#5)"/>
+<entry key="580" type="xstring" value="China (#5)"/>
+<entry key="581" type="xstring" value="Japan (#5)"/>
+<entry key="582" type="xstring" value="Yugoslavia (#5)"/>
+<entry key="583" type="xstring" value="Peru (#5)"/>
+<entry key="584" type="xstring" value="Outlying-US(Guam-USVI-etc) (#5)"/>
+<entry key="585" type="xstring" value="Scotland (#5)"/>
+<entry key="586" type="xstring" value="Trinadad&amp;Tobago (#5)"/>
+<entry key="587" type="xstring" value="Greece (#5)"/>
+<entry key="588" type="xstring" value="Nicaragua (#5)"/>
+<entry key="589" type="xstring" value="Vietnam (#5)"/>
+<entry key="590" type="xstring" value="Hong (#5)"/>
+<entry key="591" type="xstring" value="Ireland (#5)"/>
+<entry key="592" type="xstring" value="Hungary (#5)"/>
+<entry key="593" type="xstring" value="Holand-Netherlands (#5)"/>
+<entry key="594" type="xstring" value="age"/>
+<entry key="595" type="xstring" value="fnlwgt"/>
+<entry key="596" type="xstring" value="education-num"/>
+<entry key="597" type="xstring" value="capital-gain"/>
+<entry key="598" type="xstring" value="capital-loss"/>
+<entry key="599" type="xstring" value="hours-per-week"/>
+<entry key="600" type="xstring" value="P (class=&lt;=50K)probabilidad"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.viz.plotter.roc.ROCCurveNodeFactory"/>
+<entry key="node-name" type="xstring" value="JavaScript ROC Curve"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070952"/>
+<entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.1.v201709070952"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="JavaScript ROC Curve"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
+<entry key="port_object_summary" type="xstring" value="SVG 800 x 600"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 1"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5ade2999-6b5e-4cc9-82d3-97a632d06c1e"/>
+</config>
+</config>

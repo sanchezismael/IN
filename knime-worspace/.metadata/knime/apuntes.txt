@@ -1,0 +1,53 @@
+91.163 (3,10,200)
+91.029 (2,10,500)
+90.993 (4,10,500) 2'25''
+90.993 (4,10,200) 1'
+91.126 (4,10,150) 45''
+91.309 (4,15,150) 1'7''
+91.272 (4,15,200) 1'22''
+91.017 (5,10,100) 37''
+90.872 (5,10,150) 53''
+90.92 (5,10,200) 1'11''
+90.847 (5,10,300) 1'47''
+90.362 (5,10,50) 20''
+91.029 (5,15,150) 1'24''
+
+91.527 (4,15,150) filter(age (Number (integer))
+job (Number (integer))
+marital (Number (integer))
+education (Number (integer))
+housing (Number (integer))
+loan (Number (integer))
+day_of_week (Number (integer))
+campaign (Number (integer))
+cons.conf.idx (Number (double)))
+
+91.515 (4,15,200) filter(age (Number (integer))
+job (Number (integer))
+marital (Number (integer))
+education (Number (integer))
+housing (Number (integer))
+loan (Number (integer))
+day_of_week (Number (integer))
+campaign (Number (integer))
+cons.conf.idx (Number (double)))
+
+91.527 (5,15,150) filter(age (Number (integer))
+job (Number (integer))
+marital (Number (integer))
+education (Number (integer))
+housing (Number (integer))
+loan (Number (integer))
+day_of_week (Number (integer))
+campaign (Number (integer))
+cons.conf.idx (Number (double)))
+
+91.563 (3,15,150) filter(age (Number (integer))
+job (Number (integer))
+marital (Number (integer))
+education (Number (integer))
+housing (Number (integer))
+loan (Number (integer))
+day_of_week (Number (integer))
+campaign (Number (integer))
+cons.conf.idx (Number (double)))
